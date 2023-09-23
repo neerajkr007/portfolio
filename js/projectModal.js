@@ -1,13 +1,13 @@
 var RankedProjects=[
     Projects.Details.WorkInProgress,
+    Projects.Details.WorkInProgress2,
     Projects.Details.Piratopia,
-    Projects.Details.ChemicalCarriageway,
-    Projects.Details.MREncyclopedia,
-    Projects.Details.Snake3D,
-    Projects.Details.Gameplay,
-    Projects.Details.ShiroDash,
-    Projects.Details.RiTE,
-    Projects.Details.NearbyConnections
+    Projects.Details.FFT,
+    Projects.Details.HammieScramble,
+    Projects.Details.Reign,
+    Projects.Details.Pool,
+    Projects.Details.CarGoesBoom,
+    Projects.Details.CrowdRunner
 ];
 //Functions
 SetPorfolioElements();
@@ -21,6 +21,7 @@ function SetPorfolioElements(){
         // console.log(ProjectDetail.ID);
         element = element.cloneNode(true);
         element.firstElementChild.id = ProjectDetail.ID;//change id of first child which is responsible for click
+        element.lastElementChild.firstElementChild.id = ProjectDetail.ID;//change id of first child which is responsible for click
         element.lastElementChild.firstElementChild.innerHTML= ProjectDetail.Name;
         var elem = element.getElementsByTagName("img")[0];
         element.lastElementChild.lastElementChild.innerHTML= ProjectDetail.SmallDescription;
