@@ -12,18 +12,18 @@ const Projects = {
         WorkInProgress: {
             ID: "WorkInProgress",
             Name: "Work In Progress",
-            SmallDescription: "iOS, Android, AI",
-            LargeDescription: "Have you heard my Under Construction joke?<br>It's not done yet",
+            SmallDescription: "FPS, online Co-op",
+            LargeDescription: "Working on an online co-op FPS game where you play as team of rescuers trying to save some NPCs that are in danger on their lives (the actual danger is a surprise) ",
             NoOfProjectImages: 1
         },
-        TileVisualiser: {
-            ID: "TileVisualiser",
-            Name: "Tile Visualiser",
-            SmallDescription: "Shaders, Occulus Go, Unity3D",
-            LargeDescription: ' • Wrote Surface Shader from scratch in Cg/HLSL (Unity3D) for VR Occulus Go build<br> • Proposed most opptimised way to approach a problem keeping in mind the target platform<br> • Set-up Unity3D for most optimised yet best quality settings<br> • Helped to build realistic Tile Visualiser with dynamic tiles and patterns with different grout<br>',
-            DownloadLink: "",
-            EmbedVideoLinkID: "",
-            NoOfProjectImages: 0
+        Piratopia: {
+            ID: "Piratopia",
+            Name: "Piratopia",
+            SmallDescription: "MMO, Unity3D, Steam",
+            LargeDescription: ' • Worked on graphical overhaul of the game<br> • Added new game mechanics<br> • Upgraded Render pipeline and worked on new custom created shaders <br> • Helped with Bug Fixing and clearing backlog<br>',
+            DownloadLink: "https://store.steampowered.com/app/1681160/Piratopia/",
+            EmbedVideoLinkID: "https://www.youtube.com/watch?v=GNdsYzCENb0",
+            NoOfProjectImages: 1
         },
         ShiroDash: {
             ID: "ShiroDash",

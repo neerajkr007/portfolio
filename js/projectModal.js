@@ -1,6 +1,6 @@
 var RankedProjects=[
     Projects.Details.WorkInProgress,
-    Projects.Details.Homography,
+    Projects.Details.Piratopia,
     Projects.Details.ChemicalCarriageway,
     Projects.Details.MREncyclopedia,
     Projects.Details.Snake3D,
