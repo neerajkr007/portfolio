@@ -16,13 +16,13 @@ const Projects = {
             LargeDescription: " • Working on an online co-op FPS game where you play as team of rescuers trying to save some NPCs that are in danger on their lives (the actual danger is a surprise) ",
             NoOfProjectImages: 1
         },
-        WorkInProgress2: {
-            ID: "WorkInProgress2",
-            Name: "WIP VR Mystery Room Game",
-            SmallDescription: "VR, AI, online Co-op, Unity",
-            LargeDescription: " • Working on an online co-op mystery solving game where you can communicate with NPCs for clues which are powered by AI which gives unique experience every time you enter the game again",
-            NoOfProjectImages: 1
-        },
+        // WorkInProgress2: {
+        //     ID: "WorkInProgress2",
+        //     Name: "WIP VR Mystery Room Game",
+        //     SmallDescription: "VR, AI, online Co-op, Unity",
+        //     LargeDescription: " • Working on an online co-op mystery solving game where you can communicate with NPCs for clues which are powered by AI which gives unique experience every time you enter the game again",
+        //     NoOfProjectImages: 1
+        // },
         Piratopia: {
             ID: "Piratopia",
             Name: "Piratopia",
@@ -85,8 +85,8 @@ const Projects = {
             SmallDescription: "Unity3D, vehicles, C#, Solo Developer, Prototype",
             LargeDescription: 'A top-down shooter where you play as a car and battle it out with AI using your missile launchers installed on top of your car',
             DownloadLink: "https://github.com/neerajkr007/Car-goes-BOOM/releases/download/v0.1/Car.goes.BOOM.v0.1.apk",
-            EmbedVideoLinkID: "",
-            NoOfProjectImages: 0
+            EmbedVideoLinkID: "pTbGki6nBcE",
+            NoOfProjectImages: 5
         },
         CrowdRunner: {
             ID: "CrowdRunner",

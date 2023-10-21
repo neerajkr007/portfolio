@@ -1,6 +1,6 @@
 var RankedProjects=[
     Projects.Details.WorkInProgress,
-    Projects.Details.WorkInProgress2,
+    // Projects.Details.WorkInProgress2,
     Projects.Details.Piratopia,
     Projects.Details.FFT,
     Projects.Details.HammieScramble,
